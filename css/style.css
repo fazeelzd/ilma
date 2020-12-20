@@ -1,0 +1,88 @@
+body {
+  font-family: 'Baloo Tamma 2', cursive;
+  /* font-family: 'Montserrat', sans-serif; */
+  margin: auto 2rem;
+  line-height: 1.8;
+  word-spacing: 4px;
+  background-color: #ff8e71;
+  color: #222;
+  text-align: center;
+}
+p {
+  font-size: 18px;
+}
+hr {
+  border-style: dotted;
+  color: #583d72;
+  display: block;
+  width: 10%;
+  margin: 2rem auto;
+  border-width: 6px;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+}
+.title {
+  text-align: center;
+  align-content: center;
+  font-size: 2.3rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #583d72;
+  border-bottom: 4px solid #583d72;
+  border-bottom-left-radius: 15%;
+  border-bottom-right-radius: 15%;
+  display: table;
+  margin: auto;
+}
+.sub-heading {
+  display: inline-block;
+  border-bottom: 4px solid #583d72;
+  border-bottom-left-radius: 15%;
+  font-size: 2rem;
+  color: #583d72;
+}
+
+.sub-heading:hover {
+  border-bottom: 4px solid lightcoral;
+}
+
+.taskab {
+  background-color: #9f5f80;
+  padding: 10px;
+}
+
+.numbox p {
+  display: inline-block;
+}
+.num1,
+.num2,
+.op {
+  font-size: 30px;
+}
+#result {
+  font-weight: bold;
+  font-size: 20px;
+  color: #433d3c;
+}
+.btn {
+  background-color: #9f5f80;
+  padding: 5px 0px;
+  margin: 20px 10px;
+  border: none;
+  font-family: mo;
+  font-size: 18px;
+  color: #fff;
+  border-radius: 3px;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  width: 100px;
+  height: 40px;
+  font-family: Montserrat;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: lightcoral;
+  opacity: 0.8;
+}
